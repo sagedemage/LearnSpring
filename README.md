@@ -1,6 +1,15 @@
 # LearnSpring
 A project for learning about Spring with Spring Boot
 
+## Dependencies
+- Spring Boot Dev Tools - **DEVELOPER TOOLS**
+- Spring Web - **WEB**
+- Rest Repositories - **WEB**
+- Thymeleaf - **TEMPLATE ENGINES**
+- Spring Data JPA - **SQL**
+- H2 Database - **SQL**
+- MySQL Driver - **SQL**
+
 ## Resources
 - [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot/)
 - [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
