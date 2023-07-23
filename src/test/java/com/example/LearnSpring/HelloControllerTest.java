@@ -1,3 +1,5 @@
+/* Building an Application with Spring Boot */
+
 package com.example.LearnSpring;
 
 import static org.hamcrest.Matchers.equalTo;
@@ -22,7 +24,8 @@ public class HelloControllerTest {
 
     @Test
     public void getHello() throws Exception {
-        mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
+        // issue
+        mvc.perform(MockMvcRequestBuilders.get("/hello").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("Greetings from Spring Boot!")));
     }

@@ -1,3 +1,5 @@
+/* Building an Application with Spring Boot */
+
 package com.example.LearnSpring;
 
 import org.junit.jupiter.api.Test;
@@ -16,7 +18,7 @@ public class HelloControllerIT {
 
     @Test
     public void getHello() throws Exception {
-        ResponseEntity<String> response = template.getForEntity("/", String.class);
+        ResponseEntity<String> response = template.getForEntity("/hello", String.class);
         assertThat(response.getBody()).isEqualTo("Greetings from Spring Boot!");
     }
 }
