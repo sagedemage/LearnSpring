@@ -1,3 +1,5 @@
+/* Accessing JPA Data with REST */
+
 package com.example.LearnSpring;
 
 import jakarta.persistence.Entity;

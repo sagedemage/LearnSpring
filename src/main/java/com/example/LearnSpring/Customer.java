@@ -1,3 +1,5 @@
+/* Accessing Data with JPA */
+
 package com.example.LearnSpring;
 
 import jakarta.persistence.Entity;

@@ -1,3 +1,5 @@
+/* Accessing data with MySQL */
+
 package com.example.LearnSpring;
 
 import jakarta.persistence.Entity;
