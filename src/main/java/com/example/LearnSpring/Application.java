@@ -3,7 +3,6 @@
 - Accessing Data with JPA
 */
 
-
 package com.example.LearnSpring;
 
 import java.util.Arrays;
