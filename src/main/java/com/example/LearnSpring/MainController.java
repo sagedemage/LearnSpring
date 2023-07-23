@@ -20,7 +20,7 @@ public class MainController {
         n.setName(name);
         n.setEmail(email);
         userRepository.save(n);
-        return "Saved";
+        return "Saved\n";
     }
 
     @GetMapping(path="/all")
