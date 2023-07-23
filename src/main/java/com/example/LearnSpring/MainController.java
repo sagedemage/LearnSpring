@@ -27,4 +27,5 @@ public class MainController {
     public @ResponseBody Iterable<User> getAllUsers() {
         return userRepository.findAll();
     }
+
 }
