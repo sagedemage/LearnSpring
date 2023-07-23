@@ -1,10 +1,9 @@
-package com.example.spring;
+package com.example.LearnSpring;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import org.hibernate.annotations.DialectOverride;
 
 @Entity
 public class Customer {

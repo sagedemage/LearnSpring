@@ -1,4 +1,4 @@
-package com.example.spring;
+package com.example.LearnSpring;
 
 import org.junit.jupiter.api.Test;
 

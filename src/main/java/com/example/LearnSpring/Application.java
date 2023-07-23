@@ -1,8 +1,7 @@
-package com.example.spring;
+package com.example.LearnSpring;
 
 import java.util.Arrays;
 
-import org.apache.juli.logging.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
